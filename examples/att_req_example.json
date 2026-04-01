@@ -1,0 +1,24 @@
+{
+  "@context": "https://schemas.example.com/ptv/v1",
+  "msg_type": "ATT_REQ",
+  "version": "1.0",
+  "request_id": "550e8400-e29b-41d4-a716-446655440000",
+  "prover_id": "a3f1c8e5b9d2f7a4c6e8b1d3f5a7c9e2b4d6f8a1",
+  "timestamp": 1743415200,
+  "nonce": "ZGF0YV9leGFtcGxlX25vbmNl",
+  "sovereign_bound": {
+    "jurisdiction": "EU/DE",
+    "region_code": "DE-BY",
+    "compliance_profile": ["GDPR"]
+  },
+  "action_context": {
+    "task_type": "eligibility_check",
+    "cognitive_mandate": "validate_patient_data",
+    "token_expiry": "2026-03-31T12:00:00Z"
+  },
+  "attestation_envelope": {
+    "method": "groth16-2026",
+    "proof": "<base64url-groth16-proof>",
+    "model_hash": "e3b0c44298fc1c149afbf4c8996fb924ac74ef4ae8e0a28c9a03b3e9d1c6e351b"
+  }
+}
